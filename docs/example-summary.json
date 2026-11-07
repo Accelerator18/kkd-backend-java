@@ -1,0 +1,72 @@
+{
+  "run": {
+    "id": "RUN-002",
+    "snapshot_date": "2026-11-02"
+  },
+  "compared_to": {
+    "id": "RUN-001",
+    "snapshot_date": "2026-10-26"
+  },
+  "unit": {
+    "id": "HQ",
+    "name": "Дирекция B2B+",
+    "parent_id": null
+  },
+  "metrics": [
+    {
+      "key": "clean_goals_share",
+      "title": "Доля корректных целей",
+      "unit": "%",
+      "value": 47.6,
+      "previous": 42.9,
+      "delta": 4.7,
+      "trend": "better",
+      "higher_is_better": true
+    },
+    {
+      "key": "issues_count",
+      "title": "Количество проблем",
+      "unit": "шт.",
+      "value": 11,
+      "previous": 12,
+      "delta": -1,
+      "trend": "better",
+      "higher_is_better": false
+    },
+    {
+      "key": "affected_goals_count",
+      "title": "Цели с проблемами",
+      "unit": "шт.",
+      "value": 11,
+      "previous": 12,
+      "delta": -1,
+      "trend": "better",
+      "higher_is_better": false
+    }
+  ],
+  "issues_by_severity": [
+    {
+      "code": "critical",
+      "current": 2,
+      "previous": 3,
+      "delta": -1
+    },
+    {
+      "code": "major",
+      "current": 6,
+      "previous": 6,
+      "delta": 0
+    },
+    {
+      "code": "minor",
+      "current": 3,
+      "previous": 3,
+      "delta": 0
+    }
+  ],
+  "delta": {
+    "new": 4,
+    "persisting": 7,
+    "resolved": 5
+  }
+}

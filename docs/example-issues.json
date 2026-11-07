@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "5649462a-17a9-3347-9d58-3ac3764e7de9",
+      "run_id": "RUN-002",
+      "rule_code": "GOAL_NO_OWNER",
+      "severity": "critical",
+      "object_type": "GOAL",
+      "object_id": "G-005",
+      "goal_id": "G-005",
+      "unit_id": "HQ",
+      "description": "Цель без ответственного",
+      "actual_value": null,
+      "expected_value": "Непустой ответственный",
+      "recommendation": "Назначьте ответственного за цель.",
+      "delta_status": "new"
+    },
+    {
+      "id": "cc692cc5-49ce-3b14-bdd6-f0f7db6f674d",
+      "run_id": "RUN-002",
+      "rule_code": "GOAL_NO_OWNER",
+      "severity": "critical",
+      "object_type": "GOAL",
+      "object_id": "G-011",
+      "goal_id": "G-011",
+      "unit_id": "CIB",
+      "description": "Цель без ответственного",
+      "actual_value": "   ",
+      "expected_value": "Непустой ответственный",
+      "recommendation": "Назначьте ответственного за цель.",
+      "delta_status": "persisting"
+    }
+  ],
+  "total": 11,
+  "limit": 2,
+  "offset": 0
+}
